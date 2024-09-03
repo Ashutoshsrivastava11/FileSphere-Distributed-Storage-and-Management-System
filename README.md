@@ -43,3 +43,36 @@ Adds interactivity to the frontend.
 **List Files:**  View all files via the interface.
 
 **Delete Files:**  Remove files using their ID.
+
+
+
+## 🌐 API Endpoints
+**Upload File**
+
+POST /api/files/upload
+
+Request: multipart/form-data with file
+
+Response: Success or error message
+
+**Download File**
+
+GET /api/files/{id}
+
+Request: File ID
+
+Response: File content
+
+**List All Files**
+
+GET /api/files/all
+
+Response: List of file metadata
+
+**Delete File**
+
+DELETE /api/files/{id}
+
+Request: File ID
+
+Response: Success or error message
