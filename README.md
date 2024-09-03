@@ -44,7 +44,33 @@ Adds interactivity to the frontend.
 
 **Delete Files:**  Remove files using their ID.
 
+## 📂 Project Structure
 
+### Backend
+
+- **`DistributedStorageApplication.java`**: Main entry point for the Spring Boot application.
+- **`FileController.java`**: RESTful API endpoints for file operations.
+- **`FileService.java`**: Business logic for managing files.
+- **`FileMetadata.java`**: Model for file metadata.
+- **`FileRepository.java`**: CRUD operations for file metadata.
+- **`application.properties`**: Application configuration.
+- **`schema.sql`**: SQL schema definition.
+- **`data.sql`**: SQL for initial data population.
+
+### Frontend
+
+- **`index.html`**: Main HTML file for the React app.
+- **`FileUpload.jsx`**: Component for uploading files.
+- **`App.js`**: Root component of the React application.
+- **`App.css`**: Styles for the React application.
+- **`index.js`**: Entry point for the React app.
+- **`.env`**: Environment variables for configuration.
+
+### Other
+
+- **`pom.xml`**: Maven build configuration for the backend.
+- **`package.json`**: Node.js configuration for the frontend.
+- **`README.md`**: Project documentation.
 
 ## 🌐 API Endpoints
 **Upload File**
